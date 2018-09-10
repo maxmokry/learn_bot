@@ -25,7 +25,7 @@ def greet_user(bot, update):
     return
 
 def main():
-    mybot = Updater(API_KEY)
+    mybot = Updater(settings.API_KEY)
 
     logging.info('Бот запускается')
 
